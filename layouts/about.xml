@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/info">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Calculator - Provides features like history and clickable '=' continuously for multiple times. \n\n\n
+• Unit Converter - Provides features to convert weight, time, distance unit converters.\n\n\n
+• Currency Converter - Provides converter with 6 different currencies.\n\n\n
+• Created by - Krishna Pandya (170170116023)\n\
+             - Harsh Chavda (170170116007)\n
+             - Bhavik Kanjariya (170170116020)\n\n\n
+• Completely Free. Enjoy :)"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+</ScrollView>
+</RelativeLayout>
