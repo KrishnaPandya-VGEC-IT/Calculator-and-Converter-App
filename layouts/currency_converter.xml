@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30sp"
+        android:hint="Value"
+        android:id="@+id/ip_in_currency"
+        android:textColorHint="#FFFFFF"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="numberDecimal" /><!--width = 100 dp or wrap content -->
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/currency_left_side_uc"
+        android:layout_below="@+id/ip_in_currency"
+        android:layout_toLeftOf="@+id/curr_to"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ip_in_currency"
+        android:layout_marginTop="30sp"
+        android:text="to"
+        android:id="@+id/curr_to"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_below="@+id/ip_in_currency"
+        android:layout_marginTop="30sp"
+        android:layout_toRightOf="@+id/curr_to"
+        android:id="@+id/currency_right_side_uc"
+        android:layout_marginLeft="40sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:textSize="20sp"
+        android:id="@+id/curr_output"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_toRightOf="@+id/curr_to"
+        android:layout_marginLeft="40sp"
+        android:hint="Output"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:id="@+id/curr_convert"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curr_convert"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:textSize="20sp"
+        android:id="@+id/note"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginLeft="@android:dimen/app_icon_size"
+        android:hint="Note: This conversion rates are based on Rates of October 2020"/>
+</RelativeLayout>
