@@ -17,8 +17,8 @@
 <li> Provides currency conversion option </li>
 <ul>
 
+<li> <b>Demo link : </b> <a href = "https://youtu.be/DEyp6cxz1aM"> Demo video </a> </li>
 
-<b>Demo link : </b> <a href = "https://youtu.be/DEyp6cxz1aM"> Demo video </a>
 
 
 <h5> Images </h5>
