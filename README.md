@@ -15,10 +15,12 @@
 <li> Allows unit conversions of weight, time and distance using Spinner </li>
 
 <li> Provides currency conversion option </li>
+</ul>
+
+
 <ul>
-
-<li> <b>Demo link : </b> <a href = "https://youtu.be/DEyp6cxz1aM"> Demo video </a> </li>
-
+<li> <h4>Demo link : </h4> <a href = "https://youtu.be/DEyp6cxz1aM"> Demo video </a> </li>
+</ul>
 
 
 <h5> Images </h5>
